@@ -611,6 +611,67 @@ video {
   }
 }
 
+/* Div information */
+
+.information{
+  grid-row: span 2 / span 2;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  margin-top: -2.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 1280px) {
+  .information {
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+}
+
+/* Div circle */
+
+.circle{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  display: flex;
+  height: 11rem;
+  width: 11rem;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+}
+
+/* Button */
+
+.boton{
+  border-radius: 0.75rem;
+  border-width: 2px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
+}
+
+.boton:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(147, 197, 253, var(--tw-bg-opacity));
+}
+
+.boton {
+  padding: 0.5rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
