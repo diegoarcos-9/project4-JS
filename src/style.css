@@ -16,7 +16,7 @@
 
 /* Button */
 .boton{
-    @apply border-2 bg-blue-400 rounded-xl p-2 text-white font-bold hover:bg-blue-300;
+    @apply flex justify-center my-3 border-2 bg-blue-300 rounded-xl p-2 text-white font-bold hover:bg-blue-400;
 }
 
 @tailwind utilities;
